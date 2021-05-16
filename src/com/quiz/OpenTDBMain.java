@@ -335,7 +335,7 @@ public class OpenTDBMain {
 
 		for(int i=0;i<5;i++)
 			System.out.println();
-		System.out.println("Quiz completed. Your score is: " + corrects + "/" + questionCount);
+		System.out.println("Quiz completed. Your score is: " + corrects + "/" + questionCount + ".");
 		
 		scanner.close();
 	}
