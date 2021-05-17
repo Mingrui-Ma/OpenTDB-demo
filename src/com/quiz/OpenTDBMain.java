@@ -214,6 +214,7 @@ public class OpenTDBMain {
 				next=reader.read();
 			}
 			jsonOb = new JSONObject(jsonStr);
+			reader.close();
 		}	catch(IOException e)	{
 			e.printStackTrace();
 		}	catch(JSONException e)	{
